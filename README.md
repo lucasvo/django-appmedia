@@ -6,7 +6,7 @@ the intention of this application is to enable static app files (css, js, pics) 
 <project>/media/logo.jpg
 
 To use this view in development you should add something like the following to urls.py: 
-if settings.DEBUG: urlpatterns += (r'^media/(?P<path>.*)$', 'site.media.serve_apps', {'document_root' : settings.MEDIA_ROOT}) 
+    `if settings.DEBUG: urlpatterns += (r'^media/(?P<path>.*)$', 'site.media.serve_apps', {'document_root' : settings.MEDIA_ROOT})`
 
 For deployment there is a managament command called `symlinkmedia` that will create symlinks to each applications media directory in `MEDIA_ROOT`.
 
