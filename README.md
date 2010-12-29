@@ -1,6 +1,7 @@
 the intention of this application is to enable static app files (css, js, pics) in the app folder itself.
 
 `<application1>/media/<application1>/js/script.js`
+
 `<application2>/media/<application2>/js/script.js`
 
 `<project>/media/logo.jpg`
